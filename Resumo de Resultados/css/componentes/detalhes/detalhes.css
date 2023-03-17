@@ -1,0 +1,73 @@
+.detalhes {
+    width: 290px;
+    height: 408px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detalhes .titulo {
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+    margin: 12px 30px;
+    margin-top: 12%;
+}
+
+.todas-categorias {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 30px;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.categorias {
+    display: flex;
+    gap: 10px;
+}
+
+.resultados {
+    display: flex;
+    gap: 8px;    
+}
+
+.resultado-categoria {
+    color: hsl(224, 30%, 27%);
+}
+
+.valor-total {
+    color: hsl(0, 0%, 57%);
+}
+
+.card.reaction {
+    background-color: hsla(0, 100%, 72%, 0.114);
+    color: hsl(0, 100%, 67%);
+}
+
+.card.memory {
+    background-color: hsla(39, 100%, 80%, 0.274);
+    color: hsl(39, 100%, 56%);
+}
+
+.card.verbal {
+    background-color: hsla(166, 52%, 61%, 0.103);
+    color: hsl(166, 100%, 37%);
+}
+
+.card.visual {
+    background-color: hsla(234, 54%, 55%, 0.078);
+    color: hsl(234, 85%, 45%);
+}
+
+@media (max-width: 624px) {
+    .detalhes {
+        width: 320px;
+    }
+}

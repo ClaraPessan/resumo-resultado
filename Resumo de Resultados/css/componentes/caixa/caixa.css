@@ -1,0 +1,21 @@
+.caixa {
+    background-color: #ffffff;
+    width: 580px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 16px rgba(0, 0, 0, 0.084);
+}
+
+@media (max-width: 624px) {
+    .caixa {
+        width: 320px;
+        flex-direction: column;
+        top: 60%;
+    }
+}

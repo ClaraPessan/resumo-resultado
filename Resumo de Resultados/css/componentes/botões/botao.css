@@ -1,0 +1,13 @@
+.botao {
+    border: none;
+    border-radius: 24px;
+    padding: 14px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    cursor: pointer;
+    margin: 20px 30px 0 30px;
+}
+
+.botao:hover {
+    background-image: linear-gradient(to bottom, #684DD8, #382DEB);
+}
